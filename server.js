@@ -29,7 +29,7 @@ app.use((err, req, res, next) => {
   res.status(500).send(err.message);
 });
 
-app.post("/", (req, res) => {
+app.post("/newsong", (req, res) => {
   var dataToSend;
   // spawn new child process to call the python script
   const python = spawn("python3", [
