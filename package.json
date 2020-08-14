@@ -9,6 +9,7 @@
     "resetDb": "node resetDb.js",
     "seed": "node seed.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -21,6 +22,6 @@
     "nodemon": "^2.0.4",
     "pg": "^7.17.1",
     "psql": "0.0.1",
-    "sequelize": "^5.21.11"
+    "sequelize": "^5.21.3"
   }
 }
