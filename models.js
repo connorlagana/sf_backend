@@ -23,6 +23,7 @@ class Post extends Sequelize.Model {}
 Post.init(
   {
     title: Sequelize.STRING,
+    mix: Sequelize.STRING,
     likes: Sequelize.ARRAY(Sequelize.TEXT),
   },
   {
