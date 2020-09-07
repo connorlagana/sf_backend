@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "connorlagana",
+    "password": "password",
+    "database": "sf_back",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "connorlagana",
+    "password": "password",
+    "database": "sf_back",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "connorlagana",
+    "password": "password",
+    "database": "sf_back",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "use_env_variable": "DATABASE_URL"
+  }
+}
